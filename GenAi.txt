@@ -1,0 +1,110 @@
+LLM - large Language Model
+
+it process the human text model
+
+Parameters - Something related to physical knowledge of Ai
+7B,12B Billion words - B is higher then it will understand the human language better
+
+Types of LLM 
+
+Base Model - it predicts the next , next words but it cant hold the conversation.
+Instruct Model - it gives answer for what v ask
+
+closed source - there will be owner and we need access from them
+open weights - who ever can take that website and work on that
+
+What LM do?
+autoregressive prediction engine - it just predicts everything and run
+
+[(hi am sri) - one sequences and 3 elements] - elements will be separated and it will add like puzzle and after it is done it will check the sequence and if it is wrong it will again it wrk on it
+
+
+(Temperature - 0.0 to 0.9 ) - training the model it is like setting for Ai if u set 0.9 it will be like chiti robo (says many story)
+Top-K - if there are 10000 words (top-K will decide top-5k words if v set then only first 50k words will be allowed)
+
+Transformer 
+2017 - before 2017 traditional way thy have educated the Ai, thy can read word sequence one at a time, move left to right. It cant remember the first sentence,
+After that they got the transformer - it is neural network architecture
+Attention Mechanism - it reads all the words sequence at a time , cons : if it reads all the words its like arranging the puzzle it should know the sequence to know the words where to arrange.
+Positional encoding - when there is lot of papers in book, in positional encoding they have number in the paper so that the puzzles are easy to arrange with the numbers
+
+Transformer Architectures types: 
+
+Encoder: context understanding - it will not say anything it cant able to talk - it is user for understanding purpose 
+Decoder: story telling (he can tell stories but dnt know if it is write r wrong) - context knowledge will not be there - chatgpt , gemini
+
+29-03-2026
+
+Neural network
+
+file name - ipy - Jupiter notebook it is for cell by cell the data's will be stored
+GPU - google storage (if we connect this google they will access for 3hours to work on that but once the time is over it will be deleted)
+system Ram - local storage
+
+1.Data Manipulation
+we are going to read the data, we are going to manipulate the data
+
+In collab
+data manipulation is done
+
+2.Data cleaning 
+
+data cleaning - mixed case - lower case, symbols will be removed
+
+def - to create a function in python
+indentation - tab space in python
+
+3.Data split
+
+Features and Target 
+
+4.Vectors 
+
+1D plane 0D - its a plain text 
+2D Matrix - 
+3D Tensors - stacking all the 2D sheet one above the other is called Tensors
+
+from tensorflow.keras.models import Sequential - sequential (it is a empty field we can add anything)
+from tensorflow.keras.layers import LSTM, Dense, Dropout - LSTM - long short term memory , Dense - output layers (activation function) , dropout - it makes the active models to work more, and rest the lazy neutrons to take rest ,it is a layer in Dense(it keeps all the neutrons active ,  
+
+5.Build model architecture
+6.Training 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
